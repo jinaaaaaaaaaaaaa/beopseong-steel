@@ -1,7 +1,11 @@
-import "./App.css";
+import AppRouter from "./Router";
 
 function App() {
-  return <>하이</>;
+  return (
+    <>
+      <AppRouter />
+    </>
+  );
 }
 
 export default App;
