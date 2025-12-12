@@ -6,6 +6,8 @@ export const Container = styled.section`
   height: 100%;
   padding: 30px 50px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const BackgroundImg = styled.img`
@@ -22,5 +24,12 @@ export const BackgroundImg = styled.img`
 export const Content = styled.div`
   position: relative;
   z-index: 1; /* 이미지 위에 올라옴 */
-  color: #000;
+  display: flex;
+  width: 100%;
+  padding: 50px;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
 `;
+
+export const Info = styled.p``;
